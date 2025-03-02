@@ -3,7 +3,7 @@ import java.util.Locale;
 import java.util.TreeSet;
 
 public class Set{
-    public static void main(String[] args) {
+    public static void main(String[] args){
         java.util.Set<String> names = new TreeSet<>();
         names.add("Kim");
         names.add("Putin".toLowerCase(Locale.ROOT));
