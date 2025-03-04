@@ -1,6 +1,6 @@
 package method;
 
-public class MethodCreation6{
+public class MthCr6 {
     public static void useVarargs(String name,int ...a){
         int sum = 0 ;
         for(int get : a){

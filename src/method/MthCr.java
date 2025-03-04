@@ -1,7 +1,7 @@
 package method;
 import java.util.Scanner;
 
-public class MethodCreation {
+public class MthCr {
     public static void printMs(){
         System.out.println(" Welcome to java programming language...😊🚀");
     }

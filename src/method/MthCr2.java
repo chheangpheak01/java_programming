@@ -1,6 +1,6 @@
 package method;
 
-public class MethodCreation2 {
+public class MthCr2 {
     public static void sumArray(int[] arrayName){
         int sum = 0;
         for(int getNumber : arrayName){

@@ -1,6 +1,6 @@
 package method;
 
-public class OverloadingMethod{
+public class Overloading {
     private static int sum(int a, int b){
         return a+b;
     }

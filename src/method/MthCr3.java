@@ -1,6 +1,6 @@
 package method;
 
-public class MethodCreation3 {
+public class MthCr3 {
     public static void findDuplicatedNumber(int[] arrayNumbers){
         for(int i=0;i<arrayNumbers.length;i++){
             //System.out.println("Outer loop : [" + arrayNumbers[i] + "]");

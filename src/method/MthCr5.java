@@ -1,6 +1,6 @@
 package method;
 
-public class MethodCreation5{
+public class MthCr5 {
     public static int sumNumbers(){
         int num1 = 2,num2 = 3;
         return num1+num2;

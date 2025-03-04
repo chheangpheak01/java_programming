@@ -1,6 +1,6 @@
 package method;
 
-public class MethodCreation1 {
+public class MthCr1 {
     public static void sum(int a, int b){
         System.out.println("Result : " + (a+b));
     }
