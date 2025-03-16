@@ -1,22 +1,25 @@
 package oop.inheritance;
 
-class Engine{
+//component class
+class Engin{
     public void speedUp(){
-        System.out.println("Engine is speeding up");
+        System.out.println("Engin is speeding up");
     }
 }
+//composite class
 class Car{
-    private Engine engine;
+    public Engin engine;
     public Car(){
-        this.engine = new Engine();
+        this.engine = new Engin();
     }
-    public void carSpeedUp(){
+    public void carSpeedingUp(){
         engine.speedUp();
     }
 }
+
 public class Has_a_relationship_OR_composite{
     public static void main(String[] args) {
-        Car car = new Car();
-        car.carSpeedUp();
+        Car myCar = new Car();
+        myCar.carSpeedingUp();
     }
 }

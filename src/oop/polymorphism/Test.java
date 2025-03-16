@@ -1,18 +1,18 @@
 package oop.polymorphism;
 
-class Food{
-    private String name;
-    public void setName(String name){
-        this.name = name;
+// compile time polymorphism or overloading
+
+class Service{
+    public int sum(int a, int b){
+        return a+b;
     }
-    public String getName(){
-        return this.name;
+    public double sum(double a, double b){
+        return a+b;
     }
 }
 public class Test{
     public static void main(String[] args) {
-        Food food1 = new Food();
-        food1.setName("Mango");
-        System.out.println(food1.getName());
+        new Service().sum(2,3);
+        new Service().sum(1.0,9.0);
     }
 }
