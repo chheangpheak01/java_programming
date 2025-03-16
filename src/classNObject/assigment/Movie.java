@@ -18,7 +18,6 @@ public class Movie{
         this.description = description;
         this.category = category;
     }
-
     @Override
     public String toString() {
         return "Movie{" +

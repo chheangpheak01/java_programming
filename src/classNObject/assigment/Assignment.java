@@ -22,8 +22,8 @@ public class Assignment{
         movies_list.add(mv3);
         movies_list.add(mv4);
         movies_list.add(mv5);
-        for(Movie results : movies_list){
-            System.out.println("-> " + results);
+        for(Movie result : movies_list){
+            System.out.println("-> " + result);
         }
     }
 }

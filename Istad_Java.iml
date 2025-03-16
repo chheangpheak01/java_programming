@@ -10,5 +10,7 @@
     <orderEntry type="library" name="text-table-formatter-1.1.2" level="project" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
     <orderEntry type="library" name="all_vc_redist_x86_x64" level="project" />
+    <orderEntry type="library" name="lombok" level="project" />
+    <orderEntry type="library" name="all_vc_redist_x86_x65" level="project" />
   </component>
 </module>

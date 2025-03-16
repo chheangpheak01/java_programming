@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="all_vc_redist_x86_x65">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/all_vc_redist_x86_x64.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
