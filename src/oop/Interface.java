@@ -15,7 +15,6 @@ class CurrencyExchange implements Service{
         System.out.println("Result in riel: " + (dollar*4000));
     }
 }
-
 public class Interface{
     public static void main(String[] args) {
         CurrencyExchange exchange = new CurrencyExchange();

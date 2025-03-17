@@ -3,7 +3,7 @@ package oop.inheritance;
 class MyParent{
     protected String name;
     protected Integer age;
-    //
+
     public MyParent(){}
     public MyParent(String name){
         this.name = name;

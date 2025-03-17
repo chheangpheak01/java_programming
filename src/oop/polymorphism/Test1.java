@@ -1,4 +1,5 @@
 package oop.polymorphism;
+
 class ParentService{
     public int sum(int a,int b){
         System.out.println("This is sum in parent class");
@@ -16,6 +17,6 @@ class ChildService extends ParentService{
 public class Test1{
     public static void main(String[] args){
         ChildService child1 = new ChildService();
-
+        System.out.println(child1.sum(1,2));
     }
 }

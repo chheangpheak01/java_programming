@@ -8,7 +8,7 @@ class Engin{
 }
 //composite class
 class Car{
-    public Engin engine;
+    private Engin engine;
     public Car(){
         this.engine = new Engin();
     }
