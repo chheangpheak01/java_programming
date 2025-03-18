@@ -1,11 +1,11 @@
-package oop;
+package oop.abstraction;
 
 interface Service{
     default void  test(){};
     void convertRielToDollar(Double riel);
     void convertDollarToRiel(Double dollar);
 }
-class CurrencyExchange implements Service{
+class CurrencyExchange implements Service {
     @Override
     public void convertRielToDollar(Double riel) {
         System.out.println("Result of dollar: " + (riel/4000));

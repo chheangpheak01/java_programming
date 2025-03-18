@@ -1,4 +1,4 @@
-package oop.bankingSoftware.abstruction;
+package oop.bankingSoftware.abstraction;
 
 public interface BankingService{
     void deposit(Double dCrash);

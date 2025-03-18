@@ -1,5 +1,5 @@
 package oop.bankingSoftware.model;
-import oop.bankingSoftware.abstruction.BankingService;
+import oop.bankingSoftware.abstraction.BankingService;
 
 public class Account implements BankingService{
     private String userName;
